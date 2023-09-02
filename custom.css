@@ -64,3 +64,10 @@
   border-radius: 5px;
   display: inline-block;
 }
+
+@media (max-width: 768px) {
+  .grid-item {
+    width: 30px; /* Decrease the width of the boxes for smaller screens */
+    height: 30px; /* Decrease the height of the boxes for smaller screens */
+  }
+}
